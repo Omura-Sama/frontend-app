@@ -20,7 +20,7 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.API_BASE_URL || 'http://ku-os.test/api'
+      apiBaseUrl: process.env.API_BASE_URL || 'http://ku-os.test/backend-api/public/api'
     }
   },
 
